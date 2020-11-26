@@ -1,6 +1,6 @@
 {
 	"name": "eleposition",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Get Element position & information",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
@@ -47,6 +47,7 @@
 	"scripts": {
 		"start": "env-cmd -f .env react-scripts start",
 		"build": "set NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/lib --out-dir dist --copy-files",
+		"page": "set NODE_ENV=production && rm -rf webpage && mkdir webpage && react-scripts build",
 		"test": "react-scripts test"
 	},
 	"eslintConfig": {
