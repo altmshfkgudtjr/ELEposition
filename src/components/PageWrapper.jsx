@@ -10,7 +10,7 @@ const Container = styled.div`
 	min-height: 100vh;
 	overflow-y: auto;
 	background-color: #ebebeb;
-	background: url('/images/paint.jpg');
+	background: url('./build/images/paint.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 `;

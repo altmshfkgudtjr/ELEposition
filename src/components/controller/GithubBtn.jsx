@@ -35,7 +35,7 @@ const Icon = styled.div`
 	width: 48px;
 	height: 48px;
 	margin-bottom: 10px;
-	background-image: url('/icons/github.png');
+	background-image: url('./build/icons/github.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: invert(98%) sepia(0%) saturate(5691%) hue-rotate(194deg) brightness(118%) contrast(90%);
