@@ -1,0 +1,80 @@
+{
+	"name": "eleposition",
+	"version": "1.0.0",
+	"description": "Get Element position & information",
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"author": {
+		"name": "NB",
+		"email": "altmshfkgudtjr@naver.com"
+	},
+	"homepage": "https://github.com/altmshfkgudtjr/ELEposition",
+	"bugs": {
+		"url": "https://github.com/altmshfkgudtjr/ELEposition/issues",
+		"email": "altmshfkgudtjr@naver.com"
+	},
+	"babel": {
+		"presets": [
+			"@babel/react"
+		],
+		"plugins": [
+			"@babel/plugin-proposal-class-properties",
+			[
+				"module-resolver",
+				{
+					"root": [
+						"./src"
+					]
+				}
+			]
+		]
+	},
+	"license": "MIT",
+	"private": false,
+	"files": [
+		"dist/*"
+	],
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-helmet-async": "^1.0.6",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "^3.4.3",
+		"react-side-effect": "^2.1.0",
+		"react-spring": "^8.0.27",
+		"styled-components": "^5.1.1"
+	},
+	"scripts": {
+		"start": "env-cmd -f .env react-scripts start",
+		"build": "set NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/lib --out-dir dist --copy-files",
+		"test": "react-scripts test"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.12.1",
+		"@babel/plugin-proposal-class-properties": "^7.12.1",
+		"@testing-library/jest-dom": "^5.11.5",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"babel-plugin-module-resolver": "^4.0.0",
+		"babel-preset-react-app": "^10.0.0",
+		"cross-env": "^7.0.2",
+		"env-cmd": "^10.1.0",
+		"jest": "^24.9.0",
+		"redux-mock-store": "^1.5.4"
+	}
+}
