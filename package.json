@@ -47,7 +47,7 @@
 	"scripts": {
 		"start": "env-cmd -f .env react-scripts start",
 		"build": "set NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/lib --out-dir dist --copy-files",
-		"page": "set NODE_ENV=production && rm -rf webpage && mkdir webpage && react-scripts build",
+		"page": "set NODE_ENV=production && react-scripts build",
 		"test": "react-scripts test"
 	},
 	"eslintConfig": {

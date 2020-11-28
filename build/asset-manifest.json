@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/altmshfkgudtjr/ELEposition/static/js/main.7ca74b43.chunk.js",
-    "main.js.map": "/altmshfkgudtjr/ELEposition/static/js/main.7ca74b43.chunk.js.map",
+    "main.js": "/altmshfkgudtjr/ELEposition/static/js/main.00b6a9de.chunk.js",
+    "main.js.map": "/altmshfkgudtjr/ELEposition/static/js/main.00b6a9de.chunk.js.map",
     "runtime-main.js": "/altmshfkgudtjr/ELEposition/static/js/runtime-main.058c8d55.js",
     "runtime-main.js.map": "/altmshfkgudtjr/ELEposition/static/js/runtime-main.058c8d55.js.map",
     "static/js/2.9cbc3a2d.chunk.js": "/altmshfkgudtjr/ELEposition/static/js/2.9cbc3a2d.chunk.js",
     "static/js/2.9cbc3a2d.chunk.js.map": "/altmshfkgudtjr/ELEposition/static/js/2.9cbc3a2d.chunk.js.map",
     "index.html": "/altmshfkgudtjr/ELEposition/index.html",
-    "precache-manifest.5d59a48a33379b6fe98b2f3e1224b700.js": "/altmshfkgudtjr/ELEposition/precache-manifest.5d59a48a33379b6fe98b2f3e1224b700.js",
+    "precache-manifest.7f59bed2a0c1146ebb95976258ef1404.js": "/altmshfkgudtjr/ELEposition/precache-manifest.7f59bed2a0c1146ebb95976258ef1404.js",
     "service-worker.js": "/altmshfkgudtjr/ELEposition/service-worker.js",
     "static/js/2.9cbc3a2d.chunk.js.LICENSE.txt": "/altmshfkgudtjr/ELEposition/static/js/2.9cbc3a2d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.058c8d55.js",
     "static/js/2.9cbc3a2d.chunk.js",
-    "static/js/main.7ca74b43.chunk.js"
+    "static/js/main.00b6a9de.chunk.js"
   ]
 }

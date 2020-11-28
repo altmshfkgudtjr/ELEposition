@@ -71,7 +71,7 @@ const Controller = ({ boxes, setBoxes, info }) => {
 
 	const onGithub = () => {
 		const a = document.createElement('a');
-		a.setAttribute('href', `https://github.com/altmshfkgudtjr`);
+		a.setAttribute('href', `https://github.com/altmshfkgudtjr/ELEposition`);
 		a.setAttribute('target', "_blank");
 		a.style.opacity = 0;
 		document.querySelector('body').append(a);

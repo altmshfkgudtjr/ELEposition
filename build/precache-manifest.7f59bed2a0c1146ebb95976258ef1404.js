@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1c227c64300ce5af4bc7b66a147579d",
+    "revision": "698af36ae4430b109b3be8efddc668e3",
     "url": "/altmshfkgudtjr/ELEposition/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/altmshfkgudtjr/ELEposition/static/js/2.9cbc3a2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f62a5324b24fb8259da3",
-    "url": "/altmshfkgudtjr/ELEposition/static/js/main.7ca74b43.chunk.js"
+    "revision": "8fcf95a380481acb8410",
+    "url": "/altmshfkgudtjr/ELEposition/static/js/main.00b6a9de.chunk.js"
   },
   {
     "revision": "492e8cefbf255865fec8",
