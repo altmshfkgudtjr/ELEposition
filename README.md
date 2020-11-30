@@ -10,6 +10,9 @@
 
 ```javascript
 import getElmentPosition from 'eleposition'
+// or
+const eleposition = require("eleposition")
+const getElmentPosition = eleposition.default;
 
 const target = document.querySelector("#Element");
 
